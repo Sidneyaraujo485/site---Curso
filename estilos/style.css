@@ -3,18 +3,28 @@
     font-size: 16px;
 }
 
+header{
+    background-color: rgba(47, 82, 156, 0.829);
+}
+
 body{
-    background-color: hotpink;
+    background-color: rgb(5, 5, 5);
 }
 
 main{
-    background-color: white;
-    width: 500px;
+    background-color: rgba(47, 82, 156, 0.829);
+    width: 600px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 15px black;
 }
 
 img.lado{
     float: right;
+}
+
+#principal{
+    font-size: 50pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
 }
