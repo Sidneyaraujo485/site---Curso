@@ -8,7 +8,7 @@ header{
 }
 
 body{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(44, 44, 44);
 }
 
 main{
@@ -20,11 +20,33 @@ main{
 }
 
 img.lado{
+    transform: rotate(90deg);
+    width: 700px;
+    height: 300px;    
     float: right;
 }
 
+img#lado{
+    width: 400px;
+    height: 200px;
+    padding-left: 50px;
+}
+
 #principal{
+    padding-left: 30px;
     font-size: 50pt;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(3, 3, 3);
+}
+
+h2{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 15pt;
+}
+
+strong{
+    font-size: 15pt;
 }
